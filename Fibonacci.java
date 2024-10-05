@@ -8,10 +8,10 @@ public class Fibonacci{
         int fibn=0, a=0, b=1, n, i=2;
         System.out.print("Enter limit for Fibonacci Series: ");
         n = sc.nextInt();
-        System.out.print("Fibonacci Series of " + n + ": 0 1 ");
+        System.out.print("Fibonacci Series of " + n + ": 0, 1, ");
         while(i<n){
             fibn = a + b;
-            System.out.print(fibn + " ");
+            System.out.print(fibn + ", ");
             a = b;
             b = fibn;
             i++;
